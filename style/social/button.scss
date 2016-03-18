@@ -1,0 +1,52 @@
+.view-social {
+    &>span {
+        display: inline-block;
+    }
+    
+    // size
+    &.big {
+        
+        .splitter {
+            width: 5px;   
+        }
+        
+        [class^="icon-"] {
+            font-size: 30px;
+            padding: 10px;
+        }
+    }
+
+    &.medium {
+        
+        .splitter {
+            width: 4px;   
+        }
+        
+        [class^="icon-"] {
+            font-size: 22px;
+            padding: 8px;
+        }
+    }
+
+    &.small {
+     
+        .splitter {
+            width: 3px;   
+        }
+        
+        [class^="icon-"] {
+            font-size: 15px;
+            padding: 7px;
+        }
+        
+    }
+    
+    // form
+    &.rounded [class^="icon-"]{
+        border-radius: 30%;
+    }
+    
+    &.circle [class^="icon-"]{
+        border-radius: 100%;
+    }
+}

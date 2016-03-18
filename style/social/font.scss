@@ -1,0 +1,44 @@
+@font-face {
+	font-family: 'tlogin';
+	src:url('../font/tlogin.eot?mntb99');
+	src:url('../font/tlogin.eot?#iefixmntb99') format('embedded-opentype'),
+		url('../font/tlogin.ttf?mntb99') format('truetype'),
+		url('../font/tlogin.woff?mntb99') format('woff'),
+		url('../font/tlogin.svg?mntb99#tlogin') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'tlogin';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+        /*float: left; /*Выравнивание для отображения лэйблов*/
+        background-color: #f5f5f5;
+        display: inline-block;
+        color: white;
+        cursor: pointer;
+	/* Better Font Rendering =========== */
+    -webkit-transition-property: background, color;
+    -webkit-transition-duration: 0.15s;
+    -webkit-transition-timing-function: ease;
+    
+    -moz-transition-property: background, color;
+    -moz-transition-duration: 0.15s;
+    -moz-transition-timing-function: ease;
+    
+    -o-transition-property : background, color;
+    -o-transition-duration: 0.15s;
+    -o-transition-timing-function: ease;
+    
+    transition-property : background, color;
+    transition-duration: 0.15s;
+    transition-timing-function: ease;
+     
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}

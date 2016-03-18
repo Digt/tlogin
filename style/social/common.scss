@@ -1,0 +1,10 @@
+@import "font";
+@import "icon";
+@import "button";
+
+[class^="icon-"], [class*=" icon-"] {
+    box-shadow: 0 -1px 0 rgba(0,0,0,0.12) inset,0 1px 1px rgba(0,0,0,0),0 2px 3px rgba(0,0,0,0);
+}
+[class^="icon-"]:hover, [class*=" icon-"]:hover {
+    box-shadow: 0 -1px 0 rgba(0,0,0,0) inset,0 2px 3px rgba(0,0,0,0.1),0 4px 8px rgba(0,0,0,0.3);
+}

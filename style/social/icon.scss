@@ -1,0 +1,43 @@
+// #name     #context     #bgcolor     #color
+$icons: 
+    ("livejournal" "\e601" #316499),
+    ("google" "\e602" #4d77e5),
+    ("mailru" "\e603" #204572 #fe9d00),
+    ("fbook" "\e604" #4e7299),
+    ("instagram" "\e606" #595959),
+    ("openid" "\e607" #ff6400),
+    ("linkedin" "\e608" #007bb6),
+    ("tumblr" "\e609" #3a5775),
+    ("lastfm" "\e60a" #f42900),
+    ("odnoklassniki" "\e60b" #FE9D00),
+    ("foursquare" "\e60c" #2a99ce),
+    ("flickr" "\e60d" #ff0283),
+    ("soundcloud" "\e60e" #ff7701),
+    ("steam" "\e60f" #000),
+    ("twitter" "\e610" #2daae2),
+    ("vimeo" "\e611" #21b7ec),
+    ("vk" "\e612" #4e7299),
+    ("webmoney" "\e613" #006bb3),
+    ("windows" "\e614" #0090e9),
+    ("yandex" "\e615" #e00001),
+    ("youtube" "\e616" #da271f),
+    ("cross" "\e617" #646464),
+    ("trustednet" "\e600" #000);
+    
+@each $i in $icons {
+    .icon-#{nth($i,1)} {             // #name
+        color: nth($i,3);
+        &:before{
+            content: nth($i,2);      // #context
+        }
+        &:hover{
+            background: nth($i,3);   // #bgcolor
+            @if length($i) == 4 {
+                color: nth($i,4);    // #color
+            }
+            @else{
+                color: #fff;
+            }
+        }
+    }
+}
