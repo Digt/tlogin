@@ -1,20 +1,23 @@
 {
-  "name": "trusted-react-2",
-  "version": "1.0.0",
-  "description": "",
-  "main": "gulpfile.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "classnames": "^2.2.3",
-    "gulp-sass": "^2.2.0",
-    "gulp-typescript": "^2.12.1",
-    "gulp-uglify": "^1.5.3",
-    "react": "^0.14.7",
-    "react-dom": "^0.14.7",
-    "vinyl-buffer": "^1.0.0"
-  }
+    "name": "trusted-react-2",
+    "version": "2.0.1",
+    "description": "",
+    "main": "gulpfile.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "msu@digt.ru",
+    "license": "MIT",
+    "devDependencies": {
+        "classnames": "^2.2.3",
+        "gulp-sass": "^2.2.0",
+        "gulp-typescript": "^2.12.1",
+        "gulp-uglify": "^1.5.3",
+        "react": "^0.14.7",
+        "react-dom": "^0.14.7",
+        "vinyl-buffer": "^1.0.0",
+        "browserify": "^13.0.0",
+        "vinyl-source-stream": "^1.1.0",
+        "del": "^2.2.0"
+    }
 }
