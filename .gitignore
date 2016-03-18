@@ -1,5 +1,6 @@
 /node_modules
-/dist
+/dist/tlogin.js
+/dist/css
 /tmp
 /typings
-/.vcode
+/.vscode
