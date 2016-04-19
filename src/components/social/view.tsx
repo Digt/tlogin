@@ -21,7 +21,7 @@ export class SocialView extends React.Component<ISocialViewProps, ISocialViewSta
         this.state = {
             size: props.config.size || "big",
             form: props.config.form || "square",
-        }
+        };
     }
 
     render() {

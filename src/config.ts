@@ -1,8 +1,9 @@
 const TRUSTED_HOST = "https://net.trusted.ru";
 
-const trusted = {
+const trusted: ITrusted = {
     host: TRUSTED_HOST,
-    auth: `${TRUSTED_HOST}/idp/sso/authorize`
+    auth: `${TRUSTED_HOST}/idp/sso/authorize`,
+    login: `${TRUSTED_HOST}/trustedapp/app/oauth`
 };
 
 export interface IConfig {
@@ -16,6 +17,7 @@ export interface IConfig {
 export interface ITrusted {
     host: string;
     auth: string;
+    login: string;
 }
 
 export interface ILogin {

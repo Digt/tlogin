@@ -17,7 +17,8 @@ export class ButtonSocial extends React.Component<IButtonSocialProps, IButtonSoc
     }
 
     onClick() {
-        let link = `${config.global.trusted.auth}?auth_type=${this.props.label}&response_type=code&scope=userprofile&redirect_uri=${config.global.redirect_uri}&client_id=${config.global.client_id}`
+        let uri = this.props.label === "trustednet" ? config.global.trusted.login : config.global.trusted.auth;
+        let link = `${uri}?auth_type=${this.props.label}&response_type=code&scope=userprofile&redirect_uri=${config.global.redirect_uri}&client_id=${config.global.client_id}`;
         Widget.open(link);
     }
 

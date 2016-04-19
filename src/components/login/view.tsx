@@ -21,7 +21,7 @@ export class LoginView extends React.Component<ILoginViewProps, ILoginViewState>
     }
 
     onClick() {
-        const link = `${config.global.trusted.auth}?auth_type=trustednet&response_type=code&scope=userprofile&redirect_uri=${config.global.redirect_uri}&client_id=${config.global.client_id}`;
+        const link = `${config.global.trusted.login}?auth_type=trustednet&response_type=code&scope=userprofile&redirect_uri=${config.global.redirect_uri}&client_id=${config.global.client_id}`;
         Widget.open(link);
     }
 
