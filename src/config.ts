@@ -12,6 +12,7 @@ export interface IConfig {
     trusted?: ITrusted;
     social?: ISocial;
     login?: ILogin;
+    certificate?: ICertificate;
 }
 
 export interface ITrusted {
@@ -21,6 +22,10 @@ export interface ITrusted {
 }
 
 export interface ILogin {
+    name?: string;
+}
+
+export interface ICertificate {
     name?: string;
 }
 
@@ -37,7 +42,7 @@ export interface ISocial {
 }
 
 function getConfig() {
-    let config;
+    let config: IConfig;
 
     try {
         config = JSON.parse(document.getElementById("trusted-login").getAttribute("data-config"));
