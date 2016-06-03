@@ -1,5 +1,5 @@
 /node_modules
-/dist/tlogin.js
+/dist/tlogin*.js
 /dist/css
 /tmp
 /typings

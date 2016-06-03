@@ -3,12 +3,14 @@
 var gulp = require('gulp'),
     typescript = require('gulp-typescript'),
     sass = require('gulp-sass'),
+    rename = require('gulp-rename'),
     browserify = require('browserify'),
     buffer = require('vinyl-buffer'),
     source = require('vinyl-source-stream'),
     del = require('del'),
     uglify = require('gulp-uglify');
 
+var VERSION = "2.0.2";
 
 gulp.task('compress', function() {
     return gulp.src('dist/tlogin.js')
@@ -30,6 +32,7 @@ gulp.task('style', function() {
     return gulp.src("style/tlogin.scss")
         .pipe(sass().on('error', sass.logError))
         //.pipe(autoprefixer('last 2 versions'))
+        .pipe(rename(`tlogin-${VERSION}.css`))
         .pipe(gulp.dest("dist/css"))
 });
 
@@ -46,6 +49,7 @@ gulp.task('compile', ["clean", "compileTS"], function() {
         .pipe(source('tlogin.js'))
         .pipe(buffer())
         .pipe(uglify())
+        .pipe(rename(`tlogin-${VERSION}.js`))
         .pipe(gulp.dest('dist'))
 });
 

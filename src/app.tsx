@@ -30,12 +30,29 @@ export class App extends React.Component<IAppProps, IAppState> {
     componentWillMount() {
     }
 
+    renderItems() {
+        let views: JSX.Element[] = [];
+        for (let i in this.state.config) {
+            switch (i) {
+                case "login":
+                    views.push(<LoginView name = {this.state.config.login.name} />);
+                    break;
+                case "certificate":
+                    views.push(<CertificateView name = {this.state.config.certificate.name} />);
+                    break;
+                case "social":
+                    views.push(<SocialView config={this.state.config.social} />);
+                    break;
+            }
+        }
+
+        return views;
+    }
+
     render() {
         return (
             <div className="view-contaier">
-                {(this.state.login) ? <LoginView name = {this.state.config.login.name} /> : null}
-                {(this.state.certificate) ? <CertificateView name = {this.state.config.certificate.name} /> : null}
-                {(this.state.social) ? <SocialView config={this.state.config.social} /> : null}
+                {this.renderItems() }
             </div>
         );
     }

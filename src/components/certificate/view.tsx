@@ -22,14 +22,16 @@ export class CertificateView extends React.Component<ICertificateViewProps, ICer
 
     onClick() {
         const link = `${config.global.trusted.login}?auth_type=certificate&response_type=code&scope=userprofile&redirect_uri=${config.global.redirect_uri}&client_id=${config.global.client_id}`;
-        Widget.open(link);
+        Widget.open(link, 450, 270);
     }
 
     render() {
         let cn = classNames(["view-certificate"]);
 
         return (
-            <div className={cn} onClick={this.onClick.bind(this) }>{this.state.name}</div>
+            <div className={cn}>
+                <div className="view-button" onClick={this.onClick.bind(this) }>{this.state.name}</div>
+            </div>
         );
     }
 

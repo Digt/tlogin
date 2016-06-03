@@ -29,7 +29,9 @@ export class LoginView extends React.Component<ILoginViewProps, ILoginViewState>
         let cn = classNames(["view-login"]);
 
         return (
-            <div className={cn} onClick={this.onClick.bind(this) }>{this.state.name}</div>
+            <div className={cn}>
+                <div className="view-button" onClick={this.onClick.bind(this) }>{this.state.name}</div>
+            </div>
         );
     }
 
