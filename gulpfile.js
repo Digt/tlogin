@@ -10,7 +10,8 @@ var gulp = require('gulp'),
     del = require('del'),
     uglify = require('gulp-uglify');
 
-var VERSION = "2.0.2";
+var _package = require("./package.json");
+var VERSION = _package.version;
 
 gulp.task('compress', function() {
     return gulp.src('dist/tlogin.js')
