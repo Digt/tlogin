@@ -21,7 +21,7 @@ export class CertificateView extends React.Component<ICertificateViewProps, ICer
     }
 
     onClick() {
-        const link = `${config.global.trusted.auth}?auth_type=certificate&response_type=code&scope=userprofile&redirect_uri=${config.global.redirect_uri}&client_id=${config.global.client_id}`;
+        const link = `${config.global.trusted.auth}?auth_type=cert&response_type=code&scope=userprofile&redirect_uri=${config.global.redirect_uri}&client_id=${config.global.client_id}`;
         Widget.open(link, 450, 270);
     }
 
