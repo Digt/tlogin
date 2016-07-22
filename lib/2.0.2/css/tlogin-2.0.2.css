@@ -1,0 +1,296 @@
+@charset "UTF-8";
+@font-face {
+  font-family: 'tlogin';
+  src: url("../font/tlogin.eot?mntb99");
+  src: url("../font/tlogin.eot?#iefixmntb99") format("embedded-opentype"), url("../font/tlogin.ttf?mntb99") format("truetype"), url("../font/tlogin.woff?mntb99") format("woff"), url("../font/tlogin.svg?mntb99#tlogin") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+[class^="icon-"], [class*=" icon-"] {
+  font-family: 'tlogin';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /*float: left; /*Выравнивание для отображения лэйблов*/
+  background-color: #f5f5f5;
+  display: inline-block;
+  color: white;
+  cursor: pointer;
+  /* Better Font Rendering =========== */
+  -webkit-transition-property: background, color;
+  -webkit-transition-duration: 0.15s;
+  -webkit-transition-timing-function: ease;
+  -moz-transition-property: background, color;
+  -moz-transition-duration: 0.15s;
+  -moz-transition-timing-function: ease;
+  -o-transition-property: background, color;
+  -o-transition-duration: 0.15s;
+  -o-transition-timing-function: ease;
+  transition-property: background, color;
+  transition-duration: 0.15s;
+  transition-timing-function: ease;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+.icon-livejournal {
+  color: #316499; }
+  .icon-livejournal:before {
+    content: ""; }
+  .icon-livejournal:hover {
+    background: #316499;
+    color: #fff; }
+
+.icon-google {
+  color: #4d77e5; }
+  .icon-google:before {
+    content: ""; }
+  .icon-google:hover {
+    background: #4d77e5;
+    color: #fff; }
+
+.icon-mailru {
+  color: #204572; }
+  .icon-mailru:before {
+    content: ""; }
+  .icon-mailru:hover {
+    background: #204572;
+    color: #fe9d00; }
+
+.icon-fbook {
+  color: #4e7299; }
+  .icon-fbook:before {
+    content: ""; }
+  .icon-fbook:hover {
+    background: #4e7299;
+    color: #fff; }
+
+.icon-instagram {
+  color: #595959; }
+  .icon-instagram:before {
+    content: ""; }
+  .icon-instagram:hover {
+    background: #595959;
+    color: #fff; }
+
+.icon-openid {
+  color: #ff6400; }
+  .icon-openid:before {
+    content: ""; }
+  .icon-openid:hover {
+    background: #ff6400;
+    color: #fff; }
+
+.icon-linkedin {
+  color: #007bb6; }
+  .icon-linkedin:before {
+    content: ""; }
+  .icon-linkedin:hover {
+    background: #007bb6;
+    color: #fff; }
+
+.icon-tumblr {
+  color: #3a5775; }
+  .icon-tumblr:before {
+    content: ""; }
+  .icon-tumblr:hover {
+    background: #3a5775;
+    color: #fff; }
+
+.icon-lastfm {
+  color: #f42900; }
+  .icon-lastfm:before {
+    content: ""; }
+  .icon-lastfm:hover {
+    background: #f42900;
+    color: #fff; }
+
+.icon-odnoklassniki {
+  color: #FE9D00; }
+  .icon-odnoklassniki:before {
+    content: ""; }
+  .icon-odnoklassniki:hover {
+    background: #FE9D00;
+    color: #fff; }
+
+.icon-foursquare {
+  color: #2a99ce; }
+  .icon-foursquare:before {
+    content: ""; }
+  .icon-foursquare:hover {
+    background: #2a99ce;
+    color: #fff; }
+
+.icon-flickr {
+  color: #ff0283; }
+  .icon-flickr:before {
+    content: ""; }
+  .icon-flickr:hover {
+    background: #ff0283;
+    color: #fff; }
+
+.icon-soundcloud {
+  color: #ff7701; }
+  .icon-soundcloud:before {
+    content: ""; }
+  .icon-soundcloud:hover {
+    background: #ff7701;
+    color: #fff; }
+
+.icon-steam {
+  color: #000; }
+  .icon-steam:before {
+    content: ""; }
+  .icon-steam:hover {
+    background: #000;
+    color: #fff; }
+
+.icon-twitter {
+  color: #2daae2; }
+  .icon-twitter:before {
+    content: ""; }
+  .icon-twitter:hover {
+    background: #2daae2;
+    color: #fff; }
+
+.icon-vimeo {
+  color: #21b7ec; }
+  .icon-vimeo:before {
+    content: ""; }
+  .icon-vimeo:hover {
+    background: #21b7ec;
+    color: #fff; }
+
+.icon-vk {
+  color: #4e7299; }
+  .icon-vk:before {
+    content: ""; }
+  .icon-vk:hover {
+    background: #4e7299;
+    color: #fff; }
+
+.icon-webmoney {
+  color: #006bb3; }
+  .icon-webmoney:before {
+    content: ""; }
+  .icon-webmoney:hover {
+    background: #006bb3;
+    color: #fff; }
+
+.icon-windows {
+  color: #0090e9; }
+  .icon-windows:before {
+    content: ""; }
+  .icon-windows:hover {
+    background: #0090e9;
+    color: #fff; }
+
+.icon-yandex {
+  color: #e00001; }
+  .icon-yandex:before {
+    content: ""; }
+  .icon-yandex:hover {
+    background: #e00001;
+    color: #fff; }
+
+.icon-youtube {
+  color: #da271f; }
+  .icon-youtube:before {
+    content: ""; }
+  .icon-youtube:hover {
+    background: #da271f;
+    color: #fff; }
+
+.icon-cross {
+  color: #646464; }
+  .icon-cross:before {
+    content: ""; }
+  .icon-cross:hover {
+    background: #646464;
+    color: #fff; }
+
+.icon-trustednet {
+  color: #000; }
+  .icon-trustednet:before {
+    content: ""; }
+  .icon-trustednet:hover {
+    background: #000;
+    color: #fff; }
+
+.view-social > span {
+  display: inline-block; }
+
+.view-social.big .splitter {
+  width: 5px; }
+
+.view-social.big [class^="icon-"] {
+  font-size: 30px;
+  padding: 10px; }
+
+.view-social.medium .splitter {
+  width: 4px; }
+
+.view-social.medium [class^="icon-"] {
+  font-size: 22px;
+  padding: 8px; }
+
+.view-social.small .splitter {
+  width: 3px; }
+
+.view-social.small [class^="icon-"] {
+  font-size: 15px;
+  padding: 7px; }
+
+.view-social.rounded [class^="icon-"] {
+  border-radius: 30%; }
+
+.view-social.circle [class^="icon-"] {
+  border-radius: 100%; }
+
+[class^="icon-"], [class*=" icon-"] {
+  box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.12) inset, 0 1px 1px transparent, 0 2px 3px transparent; }
+
+[class^="icon-"]:hover, [class*=" icon-"]:hover {
+  box-shadow: 0 -1px 0 transparent inset, 0 2px 3px rgba(0, 0, 0, 0.1), 0 4px 8px rgba(0, 0, 0, 0.3); }
+
+.view-button {
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: none;
+  color: #fff;
+  font-size: 14px;
+  background-color: #1565c0;
+  text-align: center;
+  letter-spacing: .5px;
+  border: none;
+  border-radius: 2px;
+  line-height: 36px;
+  outline: 0;
+  padding: 0 2rem;
+  text-transform: uppercase;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12); }
+
+.view-contaier {
+  padding: 10px;
+  background-color: white;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  text-align: center; }
+  .view-contaier > div {
+    margin: 5px 0px; }
+
+.login-form {
+  display: flex;
+  flex-wrap: wrap; }
+
+.view-register {
+  display: flex;
+  flex-wrap: wrap; }
+
+.view-row {
+  flex-basis: 100%;
+  flex-wrap: wrap; }
+  .view-row label {
+    display: inline-block;
+    min-width: 70px; }
